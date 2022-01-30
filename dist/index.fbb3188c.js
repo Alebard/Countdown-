@@ -524,7 +524,7 @@ const UI = {
     DATE: document.querySelector('input'),
     RESULT: document.getElementById('result')
 };
-UI.FORM.addEventListener("change", function(e) {
+UI.DATE.addEventListener("change", function() {
     const todayDate = new Date();
     const selectDate = new Date(UI.DATE.value);
     const difference = _dateFns.intervalToDuration({
