@@ -1,7 +1,6 @@
 import { intervalToDuration  } from 'date-fns'
 
 const UI = {
-    FORM: document.querySelector("form"),
     DATE: document.querySelector('input'),
     RESULT: document.getElementById('result'),
 }

@@ -521,7 +521,6 @@ function hmrAcceptRun(bundle, id) {
 },{}],"bDbGG":[function(require,module,exports) {
 var _dateFns = require("date-fns");
 const UI = {
-    FORM: document.querySelector("form"),
     DATE: document.querySelector('input'),
     RESULT: document.getElementById('result')
 };
